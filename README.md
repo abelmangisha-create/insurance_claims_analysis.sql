@@ -28,15 +28,15 @@ This project uses `GROUP BY` aggregations to profile the `insurance_dataset` tab
 
 ## Key Findings
 
-**Age is essentially identical across gender.** Both male and female policyholders average **51 years old**, with the same range at both ends (**18 to 102**). Age isn't a differentiator between the two groups in this dataset.
+**Age is essentially identical across gender.** Both male and female policyholders average **51 years old**, with the same range at both ends (18 to 102). Age isn't a differentiator between the two groups in this dataset.
 
 **Income and claim volume are close between genders, with a slight female skew.** Female policyholders logged marginally more total claims (6,541 vs. 6,459) and a higher total income (~$1.054B vs. ~$1.049B) than males. On a per-claim basis, females also had a slightly higher average claim amount ($9,237 vs. $9,132) and a slightly higher largest claim ($99,841 vs. $99,789). The differences are small in relative terms (roughly 1%), so this reads more as balance than a meaningful gender effect.
 
 **Marital status shows almost no income difference.** Total income for Married ($1,051,169,791) and Single ($1,051,169,825) policyholders differs by only $34 — functionally identical, and likely just a reflection of similar group sizes rather than any real distinction.
 
-**Education shows a mild, non-linear income effect.** Average income was highest for PhD holders ($161,909), followed closely by Bachelor's ($161,729) and Master's ($161,519) — a ~$400 spread across all three. Every education level shares the same max income ceiling ($404,428) and a similar income floor (~$5,000–5,400), suggesting income here is more driven by occupation than by degree level.
+**Education shows a mild, non-linear income effect.** Average income was highest for PhD holders ($161,909), followed closely by Bachelor's ($161,729) and Master's ($161,519)  a ~$400 spread across all three. Every education level shares the same max income ceiling ($404,428) and a similar income floor (~$5,000–5,400), suggesting income here is more driven by occupation than by degree level.
 
-**Occupation drives the widest income differences.** Across all five occupations, average income ranges from **$116,978** (Teacher, Single) up to **$169,406** (CEO, Married) — a roughly 45% spread between the lowest- and highest-earning segments:
+**Occupation drives the widest income differences.** Across all five occupations, average income ranges from **$116,978** (Teacher, Single) up to **$169,406** (CEO, Married),a roughly 45% spread between the lowest and highest-earning segments:
 
 | Occupation | Marital Status | Avg Income | Highest Income | Lowest Income |
 |---|---|---|---|---|
